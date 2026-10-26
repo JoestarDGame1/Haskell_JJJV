@@ -1,0 +1,11 @@
+main :: IO()
+main = do
+    print(fst(8,11))
+    print(fst("wow","false"))
+    print(snd(8,11))
+    print(snd("wow","false"))
+    print(zip[1 .. 5]["uno","dos","tres","cuatro","cinco"])
+    print(zip[5,3,2,6,2,7,2,5,4,6,6]["hay","una","serpiente","en","mi","bota"])
+    print(zip[1..]["limon","naranja","toronja","mandarina","lima","guayaba"])
+    print(['a','e'..'u'])
+    print(['a'..'u'])
